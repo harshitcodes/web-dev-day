@@ -12,6 +12,7 @@ const registrationsController = require('../controllers/registrations_controller
 
 // [TODO 1] create a route for displaying the home page of events (it'll contain the form to create an event and list of events)
 
+router.get('/', eventsController.home);
 
 // [TODO 2] create a route for receiving the data from new event form and send it to an action in the eventsController
 
